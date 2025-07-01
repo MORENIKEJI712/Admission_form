@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section C – Parent's Information</title>
+  <link rel="stylesheet" href="section-c.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="PCC logo.jpg" alt="School Logo" class="logo" />
+    <h1>Section C: Parent’s Personal Data & Commitment</h1>
+    <div class="navigation-links">
+  <a href="section-b.html" class="back-link">← Go Back to Section B</a>
+</div>
+
+  </div>
+
+  <div class="form-box">
+    <form action="#" method="post" enctype="multipart/form-data">
+
+      <fieldset>
+        <legend><strong>Parent Occupation & Address</strong></legend>
+
+        <label>Father's Occupation:</label>
+        <input type="text" name="father_occupation" required>
+
+        <label>Father's Business Address:</label>
+        <input type="text" name="father_address" required>
+
+        <label>Mother's Occupation:</label>
+        <input type="text" name="mother_occupation" required>
+
+        <label>Mother's Business Address:</label>
+        <input type="text" name="mother_address" required>
+      </fieldset>
+
+      <fieldset class="commitment-box">
+        <legend><strong>Financial Commitment</strong></legend>
+
+        <p class="pledge">
+          I, <input type="text" name="parent_name" placeholder="Parent's Full Name" required>,
+          conscientiously agree and am ready to finance the schooling to greater and sustainable heights.
+          I also agree to comply with all conditions stipulated in the school’s prospectus.
+        </p>
+
+        <label for="parent-signature"><strong>Upload Parent/Guardian’s Signature:</strong></label>
+        <input type="file" name="parent_signature" id="parent-signature" accept="image/*" required>
+      </fieldset>
+
+      <button type="button" onclick="window.location.href='section-d.html'">Submit Section C</button>
+    </form>
+  </div>
+</body>
+</html>

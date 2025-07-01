@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section A – Student Data</title>
+  <link rel="stylesheet" href="section-a.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="PCC logo.jpg" alt="School Logo" class="logo" />
+    <h1>Section A: Student Data</h1>
+    <div class="navigation-links">
+  <a href="requirements.html" class="back-link">← Go Back to Requirements</a>
+</div>
+
+  </div>
+
+  <div class="form-box">
+    <form action="#" method="post">
+      <fieldset>
+        <legend><strong>Student Names</strong></legend>
+        <label>Surname:</label>
+        <input type="text" name="surname" required>
+        
+        <label>First Name:</label>
+        <input type="text" name="firstname" required>
+        
+        <label>Other Name:</label>
+        <input type="text" name="othername">
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Bio Details</strong></legend>
+        <label>Date of Birth:</label>
+        <input type="date" name="dob" required>
+
+        <label>Age:</label>
+        <input type="number" name="age" min="1" required>
+
+        <label>Sex:</label>
+        <select name="sex" required>
+          <option value="">Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Other</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Origin Info</strong></legend>
+        <label>Religion:</label>
+        <input type="text" name="religion">
+
+        <label>State of Origin:</label>
+        <input type="text" name="state">
+
+        <label>Local Government Area (LGA):</label>
+        <input type="text" name="lga">
+
+        <label>Nationality:</label>
+        <input type="text" name="nationality">
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Education</strong></legend>
+        <label>School Last Attended:</label>
+        <input type="text" name="lastSchool">
+
+        <label>Class for Which Admission is Sought:</label>
+        <input type="text" name="admissionClass" required>
+      </fieldset>
+
+      <button type="button" onclick="window.location.href='section-b.html'">Save & Continue</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section B – Head Teacher's Declaration</title>
+  <link rel="stylesheet" href="section-b.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="PCC logo.jpg" alt="School Logo" class="logo" />
+    <h1>Section B: Head Teacher’s Declaration</h1>
+    <p style="margin-top: -10px;">
+  <a href="section-a.html" style="color: #1a73e8; text-decoration: none;">← Back to Section A</a>
+</p>
+
+  </div>
+
+  <div class="form-box">
+    <form action="#" method="post" enctype="multipart/form-data">
+      <p class="pledge">
+        I, <input type="text" name="Headteacher_name" placeholder="Head Teacher's full name" required>,
+        hereby declare that all the information provided in Section A is true and correct
+        to the best of my knowledge. I understand that any false information may lead to 
+        the rejection of His/Her admission.
+      </p>
+
+      <label for="ht-signature"><strong>Upload Head Teacher’s Signature:</strong></label>
+      <input type="file" name="ht_signature" id="ht-signature" accept="image/*" required>
+
+      <button type="button" onclick="window.location.href='section-c.html'">Finalize Section B</button>
+    </form>
+  </div>
+</body>
+</html>

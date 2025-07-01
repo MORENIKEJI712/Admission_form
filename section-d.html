@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section D – Medical Report</title>
+  <link rel="stylesheet" href="section-d.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="PCC logo.jpg" alt="School Logo" class="logo" />
+    <h1>Section D: Medical Report</h1>
+    <div class="navigation-links">
+  <a href="section-c.html" class="back-link">← Go Back to Section C</a>
+</div>
+
+  </div>
+
+  <div class="form-box">
+    <p class="note">
+      This section should be completed by a qualified medical professional from a recognized hospital in the candidate’s place of domicile.
+    </p>
+
+    <form action="#" method="post">
+      <label>Blood Group:</label>
+      <input type="text" name="blood_group" required>
+
+      <label>Genotype:</label>
+      <input type="text" name="genotype" required>
+
+      <label>Weight (kg):</label>
+      <input type="number" name="weight" min="1" required>
+
+      <label>Height (cm):</label>
+      <input type="number" name="height" min="1" required>
+
+      <label>Doctor’s Comment on Health Status:</label>
+      <textarea name="health_comment" rows="4" required></textarea>
+      <label for="medical-report"><strong>Upload Medical Report (PDF/Image):</strong></label>
+<input type="file" name="medical_report" id="medical-report" accept=".pdf,.jpg,.jpeg,.png" required>
+
+
+      <button type="button" onclick="window.location.href='section-e.html'">Submit Medical Report</button>
+    </form>
+  </div>
+</body>
+</html>

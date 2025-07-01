@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Section E – Final Declaration</title>
+  <link rel="stylesheet" href="section-e.css" />
+</head>
+<body>
+  <div class="header">
+    <img src="PCC logo.jpg" alt="School Logo" class="logo" />
+    <h1> Final Declaration</h1>
+    <div class="navigation-links">
+  <a href="section-d.html" class="back-link">← Go Back to Section D</a>
+</div>
+
+  </div>
+
+  <div class="form-box">
+    <form action="#" method="post" enctype="multipart/form-data">
+      
+      <fieldset>
+        <legend><strong>Confirmation</strong></legend>
+        <label>
+          <input type="checkbox" name="confirm_info" required />
+          I confirm that all information from Sections A to D has been filled truthfully and accurately.
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Parent/Guardian Declaration</strong></legend>
+
+        <label>Parent's Full Name:</label>
+        <input type="text" name="parent_name" required>
+
+        <label>Phone Number:</label>
+        <input type="tel" name="parent_phone" required>
+
+        <label>Declaration:</label>
+        <textarea name="final_declaration" rows="4" placeholder="I, [Full Name], declare that all information provided is true..." required></textarea>
+
+        <label>Upload Parent/Guardian Signature:</label>
+        <input type="file" name="signature" accept="image/*" required>
+
+        <label>Date of Submission:</label>
+        <input type="date" name="submission_date" required>
+      </fieldset>
+
+      <fieldset>
+        <legend><strong>Proof of Payment (Compulsory)</strong></legend>
+        <label>Upload Receipt:</label>
+        <input type="file" name="payment_proof" accept=".pdf,.jpg,.jpeg,.png">
+      </fieldset>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</body>
+</html>

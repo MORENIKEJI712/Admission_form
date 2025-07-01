@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('PCC\ logo.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box {
+  background: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  max-width: 500px;
+  width: 90%;
+  color: goldenrod;
+}
+
+.info-box h1 {
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+
+.info-box p {
+  margin: 10px 0;
+  font-size: 17px;
+  color: #333;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background-color: #1a73e8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #135ec2;
+}
+
